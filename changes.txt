@@ -1,0 +1,5 @@
+Revision history for software-catalog
+
+0.01     2012-11-07 (SHARYANTO) (not yet released)
+
+         First release.
