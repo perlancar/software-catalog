@@ -1,8 +1,8 @@
 summary: Software
 fields:
   id:          {index: 0, schema: ['str*', {match: '^[a-z0-9]+(-[a-z]+)*$'}], index: 0, summary: "ID", sortable: Yes, unique: Yes}
-  title:       {index: 1, schema: ['str*'], index: 1, summary: "Name", sortable: Yes, unique: Yes}
+  #title:       {index: 1, schema: ['str*'], index: 1, summary: "Name", sortable: Yes, unique: Yes}
   debian_name: {index: 2, schema: ['str*', {match: '^[a-z0-9]+(-[a-z]+)*$'}], summary: "id", sortable: Yes, unique: Yes}
-  langs:       {index: 3, schema: ['array*', {of: 'lang*'}], summary: "Implementation language"}
+  #langs:       {index: 3, schema: ['array*', {of: 'lang*'}], summary: "Implementation language"}
   tags:        {index: 4, schema: ['array*', {of: 'str*'}], summary: "Tags"}
 pk: id
